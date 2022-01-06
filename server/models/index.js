@@ -1,3 +1,3 @@
-const Person = require('./Person');
+const State = require('./State');
 
-exports.Person = Person;
+exports.State = State;
