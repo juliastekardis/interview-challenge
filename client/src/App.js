@@ -87,7 +87,7 @@ export default class App extends Component {
   // ComponentDidMount is called as soon as the class component has mounted
   componentDidMount() {
     // Retrieve the list of state data from the server
-    api.get('/states').then((response) => {
+    api.get('http://localhost:8000/api/states').then((response) => {
       let states = response.data;
 
       // Set the states state value so it can appear on the table
